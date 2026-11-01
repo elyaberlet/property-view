@@ -1,6 +1,7 @@
-package com.hotel.propertyview.exception;
+package com.hotel.propertyview.exception.handler;
 
 import com.hotel.propertyview.dto.response.ApiErrorResponse;
+import com.hotel.propertyview.exception.HotelNotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.MethodArgumentNotValidException;
