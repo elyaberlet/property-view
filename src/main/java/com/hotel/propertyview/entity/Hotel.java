@@ -58,5 +58,5 @@ public class Hotel {
             joinColumns = @JoinColumn(name = "hotel_id")
     )
     @Column(name = "amenity", nullable = false)
-    private Set<String> amenities = new HashSet<>();
+    private Set<@NotBlank @Size(max = 255) String> amenities = new HashSet<>();
 }

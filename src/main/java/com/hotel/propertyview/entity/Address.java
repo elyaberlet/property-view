@@ -16,7 +16,7 @@ import lombok.Setter;
 public class Address {
 
     @NotNull
-    @Column(name = "house_number")
+    @Column(name = "house_number", nullable = false)
     private Integer houseNumber;
 
     @NotBlank
